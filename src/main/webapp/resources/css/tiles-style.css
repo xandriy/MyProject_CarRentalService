@@ -1,0 +1,197 @@
+header{
+    height: 64px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.88);
+    display: flex;
+    position: fixed;
+    top:0px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.75);
+    z-index:1000;
+}
+.nav {
+    display: flex;
+}
+
+.mainSiteLogo {
+    display: flex;
+    color: white;
+    margin-right: 30px;
+
+}
+
+.mainSiteLogo img {
+    height: 50px;
+    width: 50px;
+    margin: 8px 10px 8px 50px;
+}
+
+.mainSiteLogo p {
+    font-size: 24px;
+    margin: 18px 10px;
+}
+
+.mainSiteLogo p span {
+    font-size: 22px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #cccde6;
+}
+
+.onePartHeader {
+    font-size: 20px;
+    padding: 20px 15px;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.onePartHeader:hover {
+    background-color: #0f0f0f;
+}
+
+.goToForms{
+   padding: 22px;
+   display: flex;
+    
+}
+
+.goToForms .goToAdminPage a {
+    font-size: 18px;
+    margin: 0 40px;
+    color: whitesmoke;
+}
+
+.goToForms a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 5px 0 0;
+    transition:0.6s;
+}
+
+.goToForms a:hover{
+   boreder-shadow: 1px 1px red;
+    font-size: 19px;
+}
+
+.goToForms span{
+    color: white;
+}
+
+.userAndLogout{
+     
+     position: absolute;
+     right: 30px;
+    display: flex;
+}
+
+.userAndLogout a{
+    margin-top: 24px;
+    font-family: sans-serif;
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+
+
+
+.userAndLogout input[type=submit]{
+    width: 80px;
+    height: 34px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: #F5F6F6;
+}
+
+
+footer {
+    background-color: rgb(0, 0, 15);
+    border-top: 2px solid grey;
+    padding: 20px 0 0 0;
+    width: 100%;
+}
+
+.footerInfo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer .mainSiteLogo {
+    display: flex;
+    color: white;
+    margin-right: 30px;
+
+
+}
+
+footer .mainSiteLogo img {
+    height: 100px;
+    width: 100px;
+    margin: 8px 10px 8px 0;
+}
+
+footer .mainSiteLogo p {
+    font-size: 38px;
+    margin: 33px 10px;
+}
+
+footer .mainSiteLogo p span {
+    font-size: 32px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #cccde6;
+}
+
+.socialNetwork {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 0 0;
+}
+
+.oneSocialNetwork {
+    margin: 10px 20px;
+    height: 64px;
+    background-color: #f0f0f0;
+    border-radius: 35px;
+}
+
+.oneSocialNetwork:hover {
+    background-color: #dbdbdb;
+}
+
+.oneSocialNetwork img {
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    transition: 0.2s;
+}
+
+.oneSocialNetwork img:hover {
+    height: 54px;
+    width: 54px;
+    margin: 5px;
+}
+
+.footerBottom {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.contacts p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footerBottom .createdBy a {
+    font-size: 20px;
+    color: white;
+}
+

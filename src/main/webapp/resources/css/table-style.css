@@ -1,0 +1,113 @@
+.allInfo table {
+	border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+	
+	border-spacing: 0px;
+	border-collapse: collapse;
+ 	width: 90%;
+	max-width: 100%;
+	margin-bottom: 15px;
+ 	background-color: transparent; 
+	text-align: center; 
+	margin: 80px 5%;
+ 	font-size:18px;
+ 	font-family:"Times New Roman", Times, serif;
+}
+
+table:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+
+.allInfo  th {
+  	font-weight: bold;
+  	border: 1px solid #cccccc; /* Change the border-color of heading here */
+  	padding: 8px;
+	font-size:20px;
+}
+
+.allInfo  td {
+  border: 1px solid #cccccc; /* Change the border-color of cells here */
+  padding: 8px;
+}
+
+/* Stylized */
+
+/* Adding Striped Effect for odd rows */
+
+.allInfo tr {
+  background-color: transparent; /* Change the default background-color of rows here */
+}
+
+.allInfo tr:nth-of-type(2n) {
+  background-color: rgb(245,245,245)	; /* Change the background-color of odd rows here */
+}
+
+.allInfo tr th {
+  background-color: #dddddd; /* Change the background-color of heading here */
+}
+
+/* Adding Hover Effect for rows */
+
+.allInfo tr {
+  -moz-transition: background-color 300ms ease-in-out 0s;
+  -ms-transition: background-color 300ms ease-in-out 0s;
+  -o-transition: background-color 300ms ease-in-out 0s;
+  -webkit-transition: background-color 300ms ease-in-out 0s;
+  transition: background-color 300ms ease-in-out 0s;
+}
+
+.allInfo tr:hover {
+  background-color: rgb(240,240,240); /* Change the hover background-color of rows here */
+}
+
+/* Removing left and right border of rows for modern UIs */
+
+.allInfo tr {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.allInfo th, td {
+  border: none;
+}
+
+
+.allInfo table a{
+    font-size: 18px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 7px;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.allInfo table  .edit{
+	background-color: #2db472;
+}
+
+.allInfo table  .profileButton{
+	background-color: #d8852c;
+	margin
+}
+
+.allInfo table  .delete{
+	background-color: #865050;
+}
+
+.allInfo table  .edit:hover{
+	background-color: #12ce73;
+}
+
+table  .profileButton:hover{
+	background-color: #c18749;
+}
+
+table  .delete:hover{
+	background-color: #ab4949;
+}
+
+
